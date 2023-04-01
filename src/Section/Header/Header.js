@@ -10,11 +10,11 @@ const Header = () => {
           <img src={HeaderImage} alt="Header Portfolio "/>
         </div>
         <h3>Ajay Gupta</h3>
-        <p>You are a click away from buliding your dream website or web Page.
-        Send me the details of your project for a modern</p>
+        <p>You are a click away from buliding your dream website or web Page.<br/>
+        FullStack Developer</p>
       <div className='header_cta'>
         <a href="#contact" className='btn primary'>Lets talk</a>
-        <a href="#portfolio"className='btn light'>My Work</a>
+        <a href="#portfolio" className='btn light'>My Work</a>
       </div>
       <div className='header_socials'>
        {

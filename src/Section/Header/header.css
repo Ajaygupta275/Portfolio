@@ -21,9 +21,10 @@ header{
     margin-bottom: 1.5rem;
 }
 .header_container p{
-    width: 35rem;
+   width: auto;
     text-align: center;
     margin: 0.6rem 0 2rem;
+    font-family: sans-serif;
 }
 .header_cta{
     display:flex ;
@@ -70,7 +71,9 @@ header{
         height: 17rem;
         max-width: 60%;
         max-height: 35vh;
+       margin-top: 2.4%;
     }
+
     .header_container p{
         width: 100%;
     }

@@ -125,6 +125,7 @@ img{
 .btn.primary{
     background:var(--color-primary);
     color: white;
+    margin-top: auto;
 }
 .btn.primary:hover{
     background: transparent;

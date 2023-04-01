@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/header-1.png'
+import AboutImage from '../../assets/About.png'
 import CV from '../../assets/cv.pdf' 
 import {GrDownload} from 'react-icons/gr'
 import Card from '../../Component/Card'
@@ -13,6 +13,7 @@ const About = () => {
           <div className='about_portrait'>
             <img src={AboutImage} alt='aboutimage'/>
           </div>
+          
          </div>
          <div className="about_right">
           <h2>About Me</h2>
@@ -26,14 +27,16 @@ const About = () => {
               </Card>
             ))
           }
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
-            <a href={CV} download className='btn primary'>Download CV<GrDownload/></a>
+          </div>
+            
+          <p>My Self Ajay Gupta <br/>I am pursuing my Undergraduate graduation in Computer Science Engineering
+            from Sunderdeep Engineering College </p> 
+          
+          <div className='download'>
+          <a href={CV} download className='btn primary'>Download CV<GrDownload/></a>
           </div>
          </div>
-
+        
         </div>
       </section>
     

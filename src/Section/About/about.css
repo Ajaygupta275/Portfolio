@@ -1,9 +1,11 @@
-
+#about{
+    margin-bottom:18rem;
+}
 .about_container{
     display: grid;
     grid-template-columns: 35% 53%;
-    gap: 12%;
-
+    gap: 6%;
+   
 }
 .about_portrait{
     height: fit-content;
@@ -73,3 +75,4 @@
 
    }
 }
+
